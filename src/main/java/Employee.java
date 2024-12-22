@@ -7,8 +7,6 @@ public class Employee {
 	private String empLocation;
 	private int empAge;
 	
-	//Test Git Fetch
-	
 	public Employee(int empId, String empName, double empSalaray, String empLocation, int empAge) {
 		super();
 		this.empId = empId;
