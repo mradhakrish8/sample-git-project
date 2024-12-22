@@ -15,6 +15,15 @@ public class Employee {
 		this.empLocation = empLocation;
 		this.empAge = empAge;
 	}
+	
+	@Override
+	public String toString() {
+		return "Employee [empId=" + empId + ", empName=" + empName + ", empSalaray=" + empSalaray + ", empLocation="
+				+ empLocation + ", empAge=" + empAge + "]";
+	}
+
+
+
 	public int getEmpId() {
 		return empId;
 	}
