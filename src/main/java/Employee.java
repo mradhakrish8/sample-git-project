@@ -8,6 +8,15 @@ public class Employee {
 	private int empAge;
 	
 	
+	
+	public Employee(int empId, String empName, double empSalaray, String empLocation, int empAge) {
+		super();
+		this.empId = empId;
+		this.empName = empName;
+		this.empSalaray = empSalaray;
+		this.empLocation = empLocation;
+		this.empAge = empAge;
+	}
 	public int getEmpId() {
 		return empId;
 	}
